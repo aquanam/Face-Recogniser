@@ -28,7 +28,7 @@ if os.path.isfile("msgbox-enable.txt") != True:
     msgbox_enable_txt.close()
 
 if len(sys.argv) >= 3:
-    print("\33[0;49;91mArguments are greater or equal to 3.\33")
+    print("\33[0;49;91mArguments are greater or equal to 3.")
     exit(1)
 
 if len(sys.argv) == 2:
